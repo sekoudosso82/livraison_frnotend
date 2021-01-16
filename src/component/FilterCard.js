@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-class  FilterBar extends Component {
+class  FilterCard extends Component {
   
   
 
@@ -19,5 +19,5 @@ class  FilterBar extends Component {
 }
 
 
-export default (FilterBar);
+export default (FilterCard);
 

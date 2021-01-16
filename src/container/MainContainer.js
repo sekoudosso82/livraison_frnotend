@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Delivreur from '../component/Delivreur'
-import FilterBar from '../component/FilterBar' 
+import DeliverContainer from './DeliverContainer'
+import FilterBarContainer from './FilterBarContainer' 
 
 
 class  MainContainer extends Component {
@@ -10,9 +10,9 @@ class  MainContainer extends Component {
   render(){
       return (
         <div className="App"> 
-        yes
-            {/* <Delivreur /> 
-            <FilterBar /> */}
+        
+            <DeliverContainer /> 
+            <FilterBarContainer />
         </div>
       );
   }

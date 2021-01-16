@@ -1,23 +1,18 @@
 import React, {Component} from 'react';
 
-
-class  Notation extends Component {
+class  DeliverCard extends Component {
   
   
 
   render(){
       return (
         <div className="App">
-
-            
-          
-        
-
+               
         </div>
       );
   }
 }
 
 
-export default (Notation);
+export default (DeliverCard);
 
